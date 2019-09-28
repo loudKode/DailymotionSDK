@@ -44,7 +44,7 @@ Dim Clnt As DailymotionSDK.IClient = New DailymotionSDK.DClient(tkn.access_token
 ```
 **set client with proxy**
 ```vb.net
-Dim roxy = New BackBlazeSDK.ProxyConfig With {.ProxyIP = "172.0.0.0", .ProxyPort = 80, .ProxyUsername = "myname", .ProxyPassword = "myPass", .SetProxy = true}
+Dim roxy = New DailymotionSDK.ProxyConfig With {.ProxyIP = "172.0.0.0", .ProxyPort = 80, .ProxyUsername = "myname", .ProxyPassword = "myPass", .SetProxy = true}
 Dim Clnt As DailymotionSDK.IClient = New DailymotionSDK.DClient(tkn.access_token,roxy)
 ```
 **list videos**
