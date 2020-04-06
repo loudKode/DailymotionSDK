@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>DailymotionSDK is a .Net library for Dailymotion.com video hosting service.</Description>
+    <Copyright>Copyright © 2019 DeQmaTech LLC.</Copyright>
+    <AssemblyTitle>DailymotionSDK</AssemblyTitle>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <VersionPrefix>1.3.5</VersionPrefix>
+    <Title>DailymotionSDK</Title>
+    <Authors>DeQmaTech LLC.</Authors>
+    <AssemblyName>DailymotionSDK</AssemblyName>
+    <PackageProjectUrl>https://github.com/loudKode/DailymotionSDK</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/loudKode/DailymotionSDK/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>Dailymotion;netstandard;cloud-storage</PackageTags>
+    <RepositoryUrl>https://github.com/loudKode/DailymotionSDK</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RootNamespace>DailymotionSDK</RootNamespace>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.1;net452</TargetFrameworks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+  </ItemGroup>
+
+</Project>
